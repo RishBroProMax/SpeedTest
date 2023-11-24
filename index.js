@@ -52,7 +52,7 @@ function calculateSpeed() {
         bitSpeed.innerHTML += `${averageSpeedInBps}`;
         kbSpeed.innerHTML += `${averageSpeedInKbps}`;
         mbSpeed.innerHTML += `${averageSpeedInMbps}`;
-        info.innerHTML = "Test Completed!";
+        info.innerHTML = "✅Test Completed!✅";
     } else {
         // Run the next test
         startTime = new Date().getTime();
@@ -62,7 +62,7 @@ function calculateSpeed() {
 
 // Initial function to start tests
 const init = async () => {
-    info.innerHTML = "Testing...";
+    info.innerHTML = "♻️Testing...";
     startTime = new Date().getTime();
     image.src = imageApi;
 };
